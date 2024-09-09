@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argon2-cffi = "*"
+django-environ = "*"
+django-extensions = "*"
+django-debug-toolbar = "*"
+django-vite = "*"
+crispy-tailwind = "*"
+django-template-partials = "*"
+django-crispy-forms = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

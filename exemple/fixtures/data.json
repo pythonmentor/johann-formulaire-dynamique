@@ -1,0 +1,462 @@
+[
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "France",
+            "slug": "france"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Allemagne",
+            "slug": "allemagne"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Italie",
+            "slug": "italie"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Espagne",
+            "slug": "espagne"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Royaume-Uni",
+            "slug": "royaume-uni"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Portugal",
+            "slug": "portugal"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Belgique",
+            "slug": "belgique"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Pays-Bas",
+            "slug": "pays-bas"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Suisse",
+            "slug": "suisse"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Autriche",
+            "slug": "autriche"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Suède",
+            "slug": "suede"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Norvège",
+            "slug": "norvege"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Danemark",
+            "slug": "danemark"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Grèce",
+            "slug": "grece"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Pologne",
+            "slug": "pologne"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Finlande",
+            "slug": "finlande"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Hongrie",
+            "slug": "hongrie"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Irlande",
+            "slug": "irlande"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "République tchèque",
+            "slug": "republique-tcheque"
+        }
+    },
+    {
+        "model": "exemple.country",
+        "fields": {
+            "name": "Roumanie",
+            "slug": "roumanie"
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur A",
+            "slug": "fournisseur-a",
+            "country": ["france"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur B",
+            "slug": "fournisseur-b",
+            "country": ["allemagne"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur C",
+            "slug": "fournisseur-c",
+            "country": ["italie"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur D",
+            "slug": "fournisseur-d",
+            "country": ["espagne"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur E",
+            "slug": "fournisseur-e",
+            "country": ["royaume-uni"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur F",
+            "slug": "fournisseur-f",
+            "country": ["portugal"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur G",
+            "slug": "fournisseur-g",
+            "country": ["belgique"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur H",
+            "slug": "fournisseur-h",
+            "country": ["pays-bas"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur I",
+            "slug": "fournisseur-i",
+            "country": ["suisse"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur J",
+            "slug": "fournisseur-j",
+            "country": ["autriche"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur K",
+            "slug": "fournisseur-k",
+            "country": ["suede"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur L",
+            "slug": "fournisseur-l",
+            "country": ["norvege"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur M",
+            "slug": "fournisseur-m",
+            "country": ["danemark"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur N",
+            "slug": "fournisseur-n",
+            "country": ["grece"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur O",
+            "slug": "fournisseur-o",
+            "country": ["pologne"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur P",
+            "slug": "fournisseur-p",
+            "country": ["finlande"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur Q",
+            "slug": "fournisseur-q",
+            "country": ["hongrie"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur R",
+            "slug": "fournisseur-r",
+            "country": ["irlande"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur S",
+            "slug": "fournisseur-s",
+            "country": ["republique-tcheque"]
+        }
+    },
+    {
+        "model": "exemple.supplier",
+        "fields": {
+            "name": "Fournisseur T",
+            "slug": "fournisseur-t",
+            "country": ["roumanie"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 1",
+            "slug": "marque-1",
+            "supplier": ["fournisseur-a"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 2",
+            "slug": "marque-2",
+            "supplier": ["fournisseur-b"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 3",
+            "slug": "marque-3",
+            "supplier": ["fournisseur-c"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 4",
+            "slug": "marque-4",
+            "supplier": ["fournisseur-d"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 5",
+            "slug": "marque-5",
+            "supplier": ["fournisseur-e"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 6",
+            "slug": "marque-6",
+            "supplier": ["fournisseur-f"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 7",
+            "slug": "marque-7",
+            "supplier": ["fournisseur-g"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 8",
+            "slug": "marque-8",
+            "supplier": ["fournisseur-h"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 9",
+            "slug": "marque-9",
+            "supplier": ["fournisseur-i"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 10",
+            "slug": "marque-10",
+            "supplier": ["fournisseur-j"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 11",
+            "slug": "marque-11",
+            "supplier": ["fournisseur-k"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 12",
+            "slug": "marque-12",
+            "supplier": ["fournisseur-l"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 13",
+            "slug": "marque-13",
+            "supplier": ["fournisseur-m"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 14",
+            "slug": "marque-14",
+            "supplier": ["fournisseur-n"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 15",
+            "slug": "marque-15",
+            "supplier": ["fournisseur-o"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 16",
+            "slug": "marque-16",
+            "supplier": ["fournisseur-p"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 17",
+            "slug": "marque-17",
+            "supplier": ["fournisseur-q"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 18",
+            "slug": "marque-18",
+            "supplier": ["fournisseur-r"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 19",
+            "slug": "marque-19",
+            "supplier": ["fournisseur-s"]
+        }
+    },
+    {
+        "model": "exemple.brand",
+        "fields": {
+            "name": "Marque 20",
+            "slug": "marque-20",
+            "supplier": ["fournisseur-t"]
+        }
+    }
+]

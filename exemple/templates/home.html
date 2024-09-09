@@ -1,0 +1,57 @@
+{% load crispy_forms_tags %}
+
+{% partialdef country_field %}
+<input type="text" name="country" class="bg-gray-100 textinput border-gray-300 w-full px-4 py-2 rounded-lg appearance-none border leading-normal text-gray-700 focus:outline-none bg-white block" disabled="disabled" required="" id="id_country" value={{ country }}>
+{% endpartialdef %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Exemple de formulaire dynamique | PlacePython{% endblock title %}</title>
+
+    {% vite_hmr_client %}
+    {# path of your vite assets are relative to the frontend directory #}
+    {% vite_asset 'src/application/app.js' %}
+</head>
+<body class="flex flex-col min-h-screen">
+    {% include "partials/nav.html" %}
+    
+    {% block container %}
+    <main class="container mx-auto">
+        <h1 class="text-4xl font-bold mb-8">Bienvenue sur mon exemple</h1>
+
+        <form method="post">
+            {% csrf_token %}
+            {% crispy form %}
+        </form>
+
+        <h2 class="text-2xl font-bold mb-8 mt-12">Liste des marques enregistrées</h2>
+
+        <div class="overflow-hidden w-full overflow-x-auto rounded-md border border-neutral-300 dark:border-neutral-700">
+            <table class="w-full text-left text-sm text-neutral-600 dark:text-neutral-300">
+                <thead class="border-b border-neutral-300 bg-neutral-50 text-sm text-neutral-900 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white">
+                    <tr>
+                        <th scope="col" class="p-4">Marque</th>
+                        <th scope="col" class="p-4">Fournisseur</th>
+                        <th scope="col" class="p-4">Pays</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-neutral-300 dark:divide-neutral-700">
+                        {% for brand in brands %}
+                        <tr>
+                            <td class="p-4">{{ brand.name }}</td>
+                            <td class="p-4">{{ brand.supplier.name }}</td>
+                            <td class="p-4">{{ brand.supplier.country.name }}</td>
+                        </tr>
+                        {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+    </main>
+    {% endblock container %}
+    
+</body>
+</html>
